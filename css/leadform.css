@@ -1,0 +1,24 @@
+body {
+    padding: 8px;
+}
+
+@font-face {
+    font-family: avenir;
+    src: url("../fonts/avenir.woff") format("woff");
+}
+
+.greet-text {
+    font-family: avenir;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.noHover {
+    pointer-events: none;
+}
+
+.main-sections {
+    text-align: left;
+    font-family: avenir;
+    font-size: 20px;
+}
